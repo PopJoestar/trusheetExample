@@ -5,6 +5,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  TextInput,
   TouchableOpacity,
   View,
 } from "react-native";
@@ -43,7 +44,7 @@ export default function Index() {
       />
       <TrueSheet
         ref={sheetRef}
-        sizes={["40%"]}
+        sizes={["auto"]}
         scrollRef={scrollRef}
         FooterComponent={
           <TouchableOpacity
@@ -70,13 +71,14 @@ export default function Index() {
           </TouchableOpacity>
         }
       >
-        <ScrollView nestedScrollEnabled ref={scrollRef}>
-          {products.map((item) => (
-            <View key={item} style={styles.itemContainer}>
-              <Text style={styles.itemText}>{item}</Text>
-            </View>
-          ))}
-        </ScrollView>
+        <View>
+          <Text>The header</Text>
+
+          <TextInput
+            multiline
+            style={{ borderWidth: 1, height: 150, marginBottom: 16 }}
+          />
+        </View>
       </TrueSheet>
     </View>
   );

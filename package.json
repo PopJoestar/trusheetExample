@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
-    "@lodev09/react-native-true-sheet": "^0.12.1",
+    "@lodev09/react-native-true-sheet": "github:lodev09/react-native-true-sheet#fix/android-footer-bug",
     "@react-navigation/native": "^6.0.2",
     "expo": "~51.0.17",
     "expo-constants": "~16.0.2",

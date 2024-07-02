@@ -1525,10 +1525,9 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lodev09/react-native-true-sheet@^0.12.1":
+"@lodev09/react-native-true-sheet@github:lodev09/react-native-true-sheet#fix/android-footer-bug":
   version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@lodev09/react-native-true-sheet/-/react-native-true-sheet-0.12.1.tgz#a38ca6d76eb76717e69372438df9d6329ab7b460"
-  integrity sha512-UQYM02tD9LgP6wROODbUrsANvB8W6LjePPV2FHlhqMhuHNHI6ooxj/Vs33YN/e5fnttVYGubErXtyWp6NCThpA==
+  resolved "https://codeload.github.com/lodev09/react-native-true-sheet/tar.gz/29b64bce61ef8b10575466354982543af5338923"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
